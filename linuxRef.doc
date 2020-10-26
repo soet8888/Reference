@@ -1,0 +1,13 @@
+# app.desktop {
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=MyApplication
+Comment=My fancy new application
+Exec=my_application
+Icon=my_application.png
+Terminal=false
+}
+#directory /usr/share/applications (path)
+#gsettings get org.gnome.shell favorite-apps
+#gsettings set org.gnome.shell favorite-apps "$(gsettings get org.gnome.shell favorite-apps | sed s/.$//), 'appname.desktop']"
